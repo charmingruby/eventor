@@ -8,6 +8,7 @@ public record EventRequestDTO(
         Long date,
         String city,
         String state,
-        Boolean isRemote, String eventUrl,
+        Boolean isRemote,
+        String eventUrl,
         MultipartFile banner) {
 }
